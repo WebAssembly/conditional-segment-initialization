@@ -6,7 +6,7 @@ This repository is a clone of github.com/WebAssembly/spec/. It is meant for
 discussion, prototype specification and implementation of a proposal to add
 conditional segment initialization to WebAssembly.
 
-See the [overview](proposals/ConditionalSegmentInitialization/Overview.md) for
+See the [overview](proposals/conditional-segment-initialization/Overview.md) for
 a summary of the proposal.
 
 Original README from upstream repository follows...
