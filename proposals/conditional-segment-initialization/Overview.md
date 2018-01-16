@@ -74,10 +74,10 @@ requires two modules where one should be enough.
 
 ## Proposal: New instructions to initialize data and element segments
 
-Similar to solution 2, we repurpose the memory index as a flags field. Unlike
-solution 2, the flags field specifies whether this segment is _inactive_. An
-inactive segment will not be automatically copied into the memory or table on
-instantiation, and must instead be applied manually using two new instructions:
+We repurpose the memory index as a flags field. The flags field specifies
+whether this segment is _inactive_. An inactive segment will not be
+automatically copied into the memory or table on instantiation, and must 
+instead be applied manually using two new instructions:
 `init_memory` and `init_table`.
 
 When the least-significant bit of the flags field is `1`, the segment is
